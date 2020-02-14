@@ -5,7 +5,9 @@
 my WEEK TWO PROJECT...AKAN PEOPLE
 
 ## Technologies Used
-HTML css JS
+- HTML
+- css
+- JS
 ## Support and contact details
 For more information visit gladwelltyae@gmail.com
 ### License

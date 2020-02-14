@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Akan Names</title>
-    <link rel="stylesheet" href="styles.css" type= "text/css"
-    <link rel="stylesheet" href="READ.me" type= "text/.md"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type= "text/css">
+    <link rel="stylesheet" href="READ.me" type= "text/.md">
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="all">
   </head>
   <body>
 
@@ -12,10 +14,10 @@
 
       <div class="row">
          <ul class="main-nav">
-         <li class="active" ><a href="#home">HOME </a></li>
+         <li class="active" ><a href="#home">home</a></li>
           <li><a href="#about">About </a></li>
-          <li><a href="#findout">FINDOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#findout">findout</a></li>
+            <li><a href="#contact">contact</a></li>
             </ul>
        </div>
 
@@ -34,10 +36,8 @@
 <h2>Male</h2>
 <div class="row">
   <div class="col-md-3">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIVfZ4R5dXyQ-AmdQySEsTKFY_6FXu66xu8Pj4dXn_bc1TFc9r" height="250px" width="450px">
-</div>
-</div>
-<div class="row">
+
+    <div class="row">
   <ul>
     <li>Sunday: Kwasi</li>
     <li>Monday: Kwadwo</li>
@@ -47,6 +47,10 @@
     <li>Friday: Kofi</li>
     <li>Saturday: Kwame</li>
   </ul>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIVfZ4R5dXyQ-AmdQySEsTKFY_6FXu66xu8Pj4dXn_bc1TFc9r" height="250px" width="450px">
+
+  </div>
+</div>
 </div>
 
 <h2>Female</h2>
@@ -70,7 +74,7 @@
 
 
 <div id="findout">
-<script src="main.js"></script>
+
 <div class="main.js6">
                <form>
                    <h3><b>LETS FINDOUT</b></h3>
@@ -93,8 +97,23 @@
                            <div class="col-md-12">
                                <div>
                                    <label for="MM">Month:</label>
-                                   <input type="number" id="MM" class="month" placeholder="Month of birth " max="12"
-                                       required>
+
+                               <select name="month" input type="number" id="MM" class="month" placeholder="Month of birth " max="12"
+                                   required>
+                                   <option value="month">Month</option>
+                                   <option value="january">January</option>
+                                   <option value="february">February</option>
+                                   <option value="march">March</option>
+                                   <option value="april">April</option>
+                                   <option value="may">May</option>
+                                   <option value="june">June</option>
+                                   <option value="july">July</option>
+                                   <option value="august">August</option>
+                                   <option value="september">September</option>
+                                   <option value="october">October</option>
+                                   <option value="november">November</option>
+                                   <option value="december">December</option>
+                            </select>
                                </div>
                            </div>
                        </div>
@@ -128,6 +147,8 @@
        </div>
    </div>
 </div>
+
+
 <div id="contact">
 <div class="contact">
     <h1>CONTACT</h1>
@@ -151,5 +172,6 @@
     </div>
 
 </div>
+<script src="main.js"></script>
   </body>
 </html>
