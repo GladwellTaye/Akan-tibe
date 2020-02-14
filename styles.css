@@ -88,7 +88,16 @@ img{
   list-style:none;
   font-size: 30px;
 }
+h2{font-size: 40px;
+text-align: left;
+margin-left: 0;
+padding: 0:
 
+}
+
+.active{
+  font-size: 50px;
+}
 h3{
   font-size: 40px;
   text-align: left;
@@ -97,7 +106,7 @@ h3{
 }
 #contact{
 
-  margin: 0;
+  margin: 10px;
   padding: 0;
 background-color: gray;
 background-size: cover;
@@ -137,4 +146,22 @@ box-shadow: 0 0 20px #000000b3:
   text-transform: uppercase;
   font-size: 14px;
 
+}
+#findout{
+  background-image: url(bg/baby.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 1284px;
+  margin-left: 0px;
+  margin-top: 0px;
+  color: black;
+
+}
+#findout, h3{
+  text-align: center;
+}
+.cont{
+  text-align: center;
 }
