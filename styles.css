@@ -1,5 +1,5 @@
 *
-{ margin: 0;
+{ margin:0;
   padding: 0;
 }
 header
@@ -11,13 +11,17 @@ header
 }
 .main-nav
 {
-  float: right;
+  float: right ;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 20px;
+  text-align: justify;
+  position: sticky;
+
 }
 .main-nav li
 {
   display: inline-block;
+  font-size: 25px;
 }
 .main-nav li a
 {
@@ -25,13 +29,13 @@ header
   text-decoration: none;
   padding: 5px 20px;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 26px;
 }
 
 .main-nav li.active a
 {
   boder: 1px solid white;
-  font-size: 16px;
+  font-size: 26px;
 
 }
 .main-nav li a:hover
@@ -58,7 +62,7 @@ margin: auto;
   position: absolute;
   width: 1200px;
   margin-left: 0px;
-  margin-top: 200px;
+  margin-top: 125px;
 
 }
 #About, h1 {
@@ -78,15 +82,16 @@ margin: auto;
 {
   background-color: pink;
   background-image: url(bg/about.jpg);
-  height: 150vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 .row img{
-  float: right;
+  /* float: right; */
 }
 img{
-  float: right;
+  /* float: right; */
 }
 #about, ul, li{
   list-style:none;
@@ -99,17 +104,23 @@ padding: 0:
 }
 
 .active{
-  font-size: 50px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+h3{
+  color: pink;
 }
 h3{
   font-size: 40px;
-  text-align: left;
+  text-align: center;
   margin-left: 0;
   padding: 0:
 }
 #contact{
 
-  margin: 10px;
+  margin: 0px;
   padding: 0;
 background-color: gray;
 background-size: cover;
@@ -162,9 +173,10 @@ box-shadow: 0 0 20px #000000b3:
   text-align: center;
   width: 1100px;
   margin-left: 0px;
-  margin-top: 0px;
+  margin-top: 500px;
   color: black;
   font-size: 5px;
+
 
 }
 #findout, h3{
@@ -177,9 +189,10 @@ box-shadow: 0 0 20px #000000b3:
   font-size: 5px;
 
 }
-#findout, h3{
+#findout
   text-align: center;
 }
+
 .cont{
   text-align: center;
 }
@@ -188,4 +201,14 @@ box-shadow: 0 0 20px #000000b3:
 }
 #contact >.txtb{
   font-size: 5px;
+}
+ img{
+  height:370px;
+  width:450px;
+  float: inherit;
+  margin-right: 10%;
+}
+,main.js6
+{
+  margin-top: 10%;
 }
