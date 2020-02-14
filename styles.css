@@ -77,7 +77,23 @@ margin: auto;
 {
   background-color: pink;
   background-image: url(bg/about.jpg);
-  height: 100vh;
+  height: 150vh;
   background-size: cover;
   background-position: center;
+}
+img{
+  float: right;
+}
+#about, ul, li{
+  list-style:none;
+  font-size: 30px;
+}
+
+h3
+{
+  font-size: 30px;
+}
+.female, h2
+{
+  text-align: left;
 }
