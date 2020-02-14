@@ -89,11 +89,52 @@ img{
   font-size: 30px;
 }
 
-h3
-{
-  font-size: 30px;
-}
-.female, h2
-{
+h3{
+  font-size: 40px;
   text-align: left;
+  margin-left: 0;
+  padding: 0:
+}
+#contact{
+
+  margin: 0;
+  padding: 0;
+background-color: gray;
+background-size: cover;
+font-size: 110%;
+}
+.contact-form {
+  width: 85%;
+  max-width: 600px;
+  background: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+padding: 30px 40px;
+box-sizing: border-box;
+border-radius: 8px;
+font-family: "montserrat",sans-serif;
+text-align: center;
+box-shadow: 0 0 20px #000000b3:
+
+  }
+  .contact-form h1{
+    color: white;
+    margin-top: 0;
+    font-weight: 200;
+  }
+.text{
+  border:1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+
 }

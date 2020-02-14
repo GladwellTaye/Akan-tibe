@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <title>Akan Names</title>
     <link rel="stylesheet" href="styles.css" type= "text/css"
+    <link rel="stylesheet" href="READ.me" type= "text/.md"
   </head>
   <body>
+
     <header>
 
       <div class="row">
          <ul class="main-nav">
          <li class="active" ><a href="#home">HOME </a></li>
           <li><a href="#about">About </a></li>
-          <li><a href="">FINDOUT</a></li>
-           <li><a href="">README</a></li>
-            <li><a href="">CONTACT</a></li>
+          <li><a href="main.js">FINDOUT</a></li>
+             <li><a href="README.md">Readme</a></l1>
+            <li><a href="#contact">CONTACT</a></li>
             </ul>
        </div>
 
@@ -32,7 +34,7 @@
   <div class="col-md-3">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIVfZ4R5dXyQ-AmdQySEsTKFY_6FXu66xu8Pj4dXn_bc1TFc9r" height="250px" width="500px">
 </div>
-  <div class="col-md-3">
+
   <ul>
     <li>Sunday: Kwasi</li>
     <li>Monday: Kwadwo</li>
@@ -42,12 +44,13 @@
     <li>Friday: Kofi</li>
     <li>Saturday: Kwame</li>
   </ul>
-<div class= female>
-  <h2>Female</h2>
 </div>
-  <div class="col-md-3">
+
+<h3>Female</h3>
+
+
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTiORoXU6FkCl5B1NWb0aZeBTCpoJhExp8Cy2lmHrLX9tobi_yG" height="250px" width="450px">
-</div>
+
 <div class="row">
   <ul>
     <li>Sunday: Akosua</li>
@@ -60,6 +63,78 @@
   </ul>
 </div>
 </div>
+<div id="contact">
+<div class="contact">
+    <h1>CONTACT</h1>
+    <div class="txtb">
+<label>Full Name:</label>
+<input type="text" name="" value="" placeholder=" full names">
+    </div>
+    <div class="txtb">
+<label>Email:</label>
+<input type="email" name="" value="" placeholder="enter email">
+    </div>
+    <div class="txtb">
+<label>Phone number:</label>
+<input type="text" name="" value="" placeholder="enter phone number">
+    </div>
+    <div class="txtb">
+<label>Message:</label>
+<textarea></textarea>
+<a class="btn">send</a>
+    </div>
 </div>
+<script src="main.js"></script>
+<div class="main.js">
+               <form>
+                   <h3><b>CURIOUS?</b></h3>
+                   <h3><strong><i>Fill this form to know your Akan name</i></strong></h3>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-12">
+                               <div>
+                                   <label for="YY">Year:</label>
+                                   <input type="number" id="YY" class="year" placeholder="Year of birth "  required>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-12">
+                               <div>
+                                   <label for="MM">Month:</label>
+                                   <input type="number" id="MM" class="month" placeholder="Month of birth " max="12"
+                                       required>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-12">
+                               <div>
+                                   <label for="DD">Day:</label>
+                                   <input type="number" id="DD" class="day" placeholder="Date of birth" max="31"
+                                       width="100%" required>
+                               </div>
+                               <div class="gender">
+                                   <input id="male" type="radio" name="gender" required>Male
+                                   <input id="female" type="radio" name="gender" required>Female
+                               </div>
+                               <div>
+                                   <button type="button" onclick="getName()">submit</button>
+                                   <input type="reset" value="Reset">
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </form>
+              </div>
+       </div>
+       <div id="yourName">
+           <p id="display"></p>
+       </div>
+   </div>
   </body>
 </html>
