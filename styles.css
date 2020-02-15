@@ -86,6 +86,7 @@ margin: auto;
   background-size: cover;
   background-position: center;
   text-align: center;
+  
 }
 .row img{
   /* float: right; */
@@ -190,15 +191,13 @@ box-shadow: 0 0 20px #000000b3:
   height: auto;
 
 }
-#findout
-  text-align: center;
-}
+
 
 .cont{
   text-align: center;
 }
 #findout{
-  font-size: 5px;
+  font-size: 7px;
 }
 #contact >.txtb{
   font-size: 5px;

@@ -2,8 +2,7 @@ function getName() {
     var year = parseInt(document.getElementById("YY").value);
     var month =parseInt(document.getElementById("MM").value);
     var day = parseInt(document.getElementById("DD").value);
-    var date = new Date(`${year}-${month-1}-${day}`);
-    var date = new Date(year, month-1, day);
+    var date = new Date();
     var dob = date.getDay();
     var male = document.getElementById("male");
     var female = document.getElementById("female");
@@ -13,7 +12,7 @@ function getName() {
     if (male.checked == false && female.checked == false) {
         alert("Hello identify your gender");
     }
-    else if (year == "" || year.length < 4 || year.length > 4){
+    else if (year == "" || year.length < 4 || year.length >4 ){
         alert("Hello please re-enter a valid year!");
     }
     else if (month < 1 || month > 12 || month == 2 && day > 29 ){
@@ -23,7 +22,7 @@ function getName() {
         alert("Hello please re-enter a valid day!");
     }
     else if (male.checked === true) {
-        alert("Hello, " + maleNames[dob] + "is your Akan name " + " since you were born on a " + Weekdays[dob]);
+        alert("Hello, " + maleNames[dob] + " is your Akan name " + " since you were born on a " + Weekdays[dob]);
     } else {
         alert("Hello, " + femaleNames[dob] + " is your Akan name " +" since you were born on a " + Weekdays[dob]);
     }
