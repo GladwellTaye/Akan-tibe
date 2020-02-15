@@ -2,7 +2,7 @@
 #### This is week two project, 14-02-2020
 #### By **Gladwell Taye**
 ## Description
-my WEEK TWO PROJECT...AKAN PEOPLE
+My project is about AKAN peoples tribe about their outstanding names
 
 ## Technologies Used
 - HTML
