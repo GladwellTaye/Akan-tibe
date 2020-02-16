@@ -86,7 +86,6 @@ margin: auto;
   background-size: cover;
   background-position: center;
   text-align: center;
-
 }
 .row img{
   /* float: right; */
@@ -141,7 +140,6 @@ border-radius: 8px;
 font-family: "montserrat",sans-serif;
 text-align: center;
 box-shadow: 0 0 20px #000000b3:
-
   }
   .contact-form h1{
     color: white;
@@ -160,7 +158,6 @@ box-shadow: 0 0 20px #000000b3:
   color: white;
   text-transform: uppercase;
   font-size: 14px;
-
 }
 #findout{
   background-image: url(bg/baby.jpg);
