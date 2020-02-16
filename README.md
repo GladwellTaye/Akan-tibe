@@ -8,6 +8,7 @@ My project is about AKAN peoples tribe about their outstanding names
 - HTML
 - css
 - JS
+- bootstrap
 ## Support and contact details
 For more information visit gladwelltyae@gmail.com
 ### License
